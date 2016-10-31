@@ -1,4 +1,4 @@
-version: v1.5.2
+version: v1.5.0
 ignore:
   'npm:request:20160119':
     - falcor-router-demo > pouchdb > request:
@@ -117,3 +117,6 @@ patch:
   'npm:uglify-js:20151024':
     - snyk-demo-child > handlebars > uglify-js:
         patched: '2016-10-19T15:32:17.846Z'
+  'npm:request:20160119':
+    - azure-mgmt-storage > azure-common > request:
+        patched: '2016-10-31T13:23:01.033Z'
