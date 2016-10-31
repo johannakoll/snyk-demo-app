@@ -1,4 +1,4 @@
-version: v1.5.2
+version: v1.5.0
 ignore:
   'npm:request:20160119':
     - falcor-router-demo > pouchdb > request:
@@ -32,6 +32,12 @@ ignore:
     - selenium-webdriver > ws:
         reason: hi
         expires: '2016-11-18T15:33:22.087Z'
+    - red > ws:
+        reason: None given
+        expires: '2016-11-30T11:35:42.660Z'
+    - red > ws:
+        reason: None given
+        expires: '2016-11-30T11:35:42.661Z'
   'npm:handlebars:20151207':
     - snyk-demo-child > handlebars:
         reason: >-
@@ -117,3 +123,6 @@ patch:
   'npm:uglify-js:20151024':
     - snyk-demo-child > handlebars > uglify-js:
         patched: '2016-10-19T15:32:17.846Z'
+  'npm:ws:20160104':
+    - red > ws:
+        patched: '2016-10-31T11:35:42.662Z'
