@@ -1,4 +1,4 @@
-version: v1.5.2
+version: v1.5.0
 ignore:
   'npm:request:20160119':
     - falcor-router-demo > pouchdb > request:
@@ -104,6 +104,10 @@ ignore:
     - gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
         reason: hi
         expires: '2016-11-18T15:33:22.098Z'
+  'npm:pouchdb:20160830':
+    - falcor-router-demo > pouchdb:
+        reason: None given
+        expires: '2016-11-30T13:25:07.741Z'
 patch:
   'npm:bassmaster:20140927':
     - bassmaster:
